@@ -1,7 +1,7 @@
 ## Compile and Run(Linux)
 
 ```path
-If you don't have installed Visual Studio, just go to ./Algorithms dir, and there you can find the source file.
+If you don't have installed Visual Studio, go to ./Algorithms dir, and there you can find the source file.
 ```
 ```cpp
 sudo apt-get update
@@ -10,7 +10,7 @@ Verify that the compiler is successfully installed: gcc --version
 ```
 ```cpp
 gcc Source.cpp -o source
-./Source
+./source
 ```
 ...
-If you get this error: ‘scanf_s’ was not declared in this scope... Just replace scanf_s with scanf
+If you get this error: ‘scanf_s’ was not declared in this scope... Just replace scanf_s with scanf.
